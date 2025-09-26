@@ -2,7 +2,7 @@ import { Router } from 'express';
 import getAllBookings from '../services/bookings/getAllBookings.js';
 import getBookingById from '../services/bookings/getBookingById.js';
 import getBookingByUser from '../services/bookings/getBookingByUser.js';
-import { createBooking } from '../services/bookings/createBooking.js';
+import createBooking from '../services/bookings/createBooking.js';
 import { updateBooking } from '../services/bookings/updateBooking.js';
 import { deleteBooking } from '../services/bookings/deleteBooking.js';
 
