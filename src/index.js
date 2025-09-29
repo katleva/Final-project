@@ -1,4 +1,5 @@
 import express from "express";
+import './instrument.js';
 import { PrismaClient } from "@prisma/client";
 import usersRouter from "./routes/users.js";
 import bookingsRouter from "./routes/bookings.js";
